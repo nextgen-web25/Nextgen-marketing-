@@ -4,41 +4,94 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NextGen Marketing Agency</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
 <style>
-body{
+*{
 margin:0;
-font-family:Arial,sans-serif;
-background:#0d1b2a;
-color:white;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#08111f;
+color:#fff;
+}
+
+header{
+background:linear-gradient(135deg,#061427,#0b5ed7);
+padding:80px 20px;
 text-align:center;
 }
-header{
-padding:40px 20px;
-background:#102a43;
+
+header h1{
+font-size:50px;
+color:#00c3ff;
 }
-h1{
-font-size:38px;
-color:#00d4ff;
+
+header p{
+margin-top:15px;
+font-size:20px;
+color:#ddd;
+max-width:700px;
+margin-left:auto;
+margin-right:auto;
 }
-p{
-font-size:18px;
-}
+
 .btn{
 display:inline-block;
-margin:10px;
-padding:12px 25px;
-background:#00d4ff;
+margin:15px 10px;
+padding:14px 30px;
+background:#00c3ff;
 color:#000;
 text-decoration:none;
-border-radius:30px;
+border-radius:40px;
 font-weight:bold;
+transition:.3s;
 }
+
+.btn:hover{
+transform:scale(1.05);
+}
+
 section{
-padding:40px 20px;
+padding:70px 20px;
+max-width:1100px;
+margin:auto;
 }
+
+.section-title{
+text-align:center;
+font-size:34px;
+margin-bottom:35px;
+color:#00c3ff;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#111b2e;
+padding:25px;
+border-radius:15px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
 footer{
-background:#08131f;
-padding:20px;
+background:#050b16;
+text-align:center;
+padding:25px;
+margin-top:50px;
 }
 </style>
 </head>
@@ -46,30 +99,112 @@ padding:20px;
 
 <header>
 <h1>NextGen Marketing Agency</h1>
-<p>Grow Your Brand With Digital Marketing</p>
-<a class="btn" href="https://www.instagram.com/itsnextgen_?igsh=MWJwYjljaHE4bzU2dA==">Instagram</a>
-<a class="btn" href="https://www.facebook.com/share/1BakN8BMry/">Facebook</a>
-<a class="btn" href="https://wa.me/923072820068">WhatsApp</a>
+<p>Grow Your Brand. Elevate Your Business.</p>
+
+<a href="https://wa.me/923072820068" class="btn">Contact Us Today</a>
+<a href="#services" class="btn">Our Services</a>
+
 </header>
 
+<section id="about">
+
+<h2 class="section-title">About Us</h2>
+
+<p style="text-align:center;max-width:800px;margin:auto;line-height:1.8;">
+At <b>NextGen Marketing Agency</b>, we help businesses build a powerful online presence through creative digital marketing, graphic designing, content creation, branding and social media management.
+</p>
+
+</section>
+
+<section id="services">
+
+<h2 class="section-title">Our Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Social Media Marketing</h3>
+<p>Professional Facebook & Instagram Marketing.</p>
+</div>
+
+<div class="card">
+<h3>Graphic Designing</h3>
+<p>Creative posts, banners and promotional designs.</p>
+</div>
+
+<div class="card">
+<h3>Content Creation</h3>
+<p>Creative captions, posts and marketing content.</p>
+</div>
+
+<div class="card">
+<h3>SEO</h3>
+<p>Improve your online visibility with SEO.</p>
+</div>
+
+<div class="card">
+<h3>Branding</h3>
+<p>Professional logo and brand identity design.</p>
+</div>
+
+<div class="card">
+<h3>Social Media Page Setup</h3>
+<p>Create and optimize Facebook & Instagram pages.</p>
+</div>
+
+</div>
+
+</section>
 <section>
-<h2>Our Services</h2>
-<p>Social Media Management</p>
-<p>Graphic Designing</p>
-<p>Content Creation</p>
-<p>Brand Identity</p>
-<p>Website Design</p>
-<p>Facebook & Instagram Page Setup</p>
+
+<h2 class="section-title">Why Choose Us</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Creative Designs</h3>
+<p>Modern and eye-catching designs for your brand.</p>
+</div>
+
+<div class="card">
+<h3>Professional Support</h3>
+<p>Helping your business grow with smart marketing solutions.</p>
+</div>
+
+<div class="card">
+<h3>Affordable Solutions</h3>
+<p>Quality services at reasonable prices.</p>
+</div>
+
+</div>
+
 </section>
 
 <section>
-<h2>Contact Us</h2>
-<p>Email: abeeraa.zaki@gmail.com</p>
-<p>Phone: 03072820068</p>
+
+<h2 class="section-title">Contact Us</h2>
+
+<p style="text-align:center;font-size:18px;">
+📧 Email: <b>abeeraa.zaki@gmail.com</b><br><br>
+📱 Phone: <b>03072820068</b>
+</p>
+
+<div style="text-align:center;margin-top:30px;">
+
+<a class="btn" href="https://wa.me/923072820068">WhatsApp</a>
+
+<a class="btn" href="https://www.facebook.com/itsnextgen25">Facebook</a>
+
+<a class="btn" href="https://www.instagram.com/itsnextgen_">Instagram</a>
+
+</div>
+
 </section>
 
 <footer>
-© 2026 NextGen Marketing Agency
+
+<p>© 2026 NextGen Marketing Agency. All Rights Reserved.</p>
+
 </footer>
 
 </body>
